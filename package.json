@@ -1,28 +1,66 @@
 {
   "name": "dev-template",
   "version": "1.0.0",
+  "private": true,
   "description": "A template for solidity projects, using Foundry as the main dev enviroment, coupled with Hardhat for scripts and deployments",
-  "main": "hardhat.config.js",
-  "directories": {
-    "test": "test"
-  },
+  "author": "",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/0xBasset/dev-template.git"
+  "main": "hardhat.config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "ethers": "^5.6.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "_id": "dev-template@1.0.0",
   "bugs": {
     "url": "https://github.com/0xBasset/dev-template/issues"
   },
+  "directories": {
+    "test": "test"
+  },
   "homepage": "https://github.com/0xBasset/dev-template#readme",
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.5",
-    "@nomiclabs/hardhat-etherscan": "^3.0.3",
-    "dotenv": "^16.0.0",
-    "ethers": "^5.6.2"
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xBasset/dev-template.git"
   }
 }

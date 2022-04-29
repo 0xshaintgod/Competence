@@ -1,0 +1,55 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b5d7f237795522f831b67a7586a96cf780f9c993a488e6024fa1689b10f3dc6e64736f6c63430008070033",
+    "sourceMap": "57:20:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220b5d7f237795522f831b67a7586a96cf780f9c993a488e6024fa1689b10f3dc6e64736f6c63430008070033",
+    "sourceMap": "57:20:0:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/millerkinlin/Projects/Competencies2/contracts/Contract.sol",
+    "exportedSymbols": {
+      "Contract": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:22:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Contract",
+        "nameLocation": "66:8:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "57:20:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:46:0"
+  }
+}
